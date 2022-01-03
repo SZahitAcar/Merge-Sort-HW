@@ -8,3 +8,13 @@
 ## Big-O gösterimini yazınız
 
 ## O(nlogn)
+
+
+# Binary Search Tree Odevi 
+
+## [7, 5, 1, 8, 3, 6, 0, 9, 4, 2] dizisinin Binary-Search-Tree aşamalarını yazınız.
+
+### Root 5 dir burada oncelikle arrayimizi sirali bir asamaya getirmemiz gerekmektedir => [0,1,2,3,4,5,6,7,8,9]. Rootumuzun sag tarafinda [6,7,8,9] sol tarafinda ise [0,1,2,3,4] arrayi bulunmaktadir. eklemek istedigimiz sayi 10 dur bunun icin sadece sag taraftaki arrayimize bakmamiz gerekir [6,7,8,9] arrayinde de bir adet orta deger belirliyoruz bu 8 olsun eklemek istedigimiz sayi 8 den buyuk oldugu icin sag tarafa bakiyoruz sagda 9 var 10 sayisi bundan buyuk oldugu icin sayimizi 9 un sagina ekliyoruz.
+
+
+
